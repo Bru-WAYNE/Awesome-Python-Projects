@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Awsome Python Project"
+  title: "SLSA Provenance Action"
+  description: "Github Action to generate SLSA provenance"
+  tags:
+    - python
+    - github
+    - github-action
+spec:
+  type: "github-action"
+  owner: "Prateek"
+  lifecycle: "experimental"
