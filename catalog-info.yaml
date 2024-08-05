@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "Awsome Python Project"
-  title: "SLSA Provenance Action"
-  description: "Github Action to generate SLSA provenance"
+  name: "Awesome-Python-Projects"
+  title: "Awesome-Python-Projects"
+  description: "Github Action to generate Awesome-Python-Projects"
   tags:
     - python
-    - github
+    - python-github
     - github-action
 spec:
   type: "github-action"
-  owner: "Prateek"
+  owner: "prateek"
   lifecycle: "experimental"
